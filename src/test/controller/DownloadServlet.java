@@ -71,7 +71,7 @@ public class DownloadServlet extends HttpServlet {
         return getString(filename, saveRootPath);
     }
 
-    private static String getString(String filename, String saveRootPath) {
+    static String getString(String filename, String saveRootPath) {
         int hashcode = filename.hashCode();
         int dir1 = hashcode & 0xf; //0--15
         int dir2 = (hashcode & 0xf0) >> 4; //0-15
