@@ -18,7 +18,7 @@
     上传文件2：<input type="file" name="file2"><br/>
     <input type="submit" value="提交">
     <br/>
-    跳转至<a href="test.controller/ListFileServlet">下载</a>页面
+    跳转至<a href="test.controller/ListFileServlet">下载</a>&nbsp;&nbsp;&nbsp;<a href="home.html">bootstrap</a> 页面
 
 </form>
 
