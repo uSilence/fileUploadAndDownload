@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>My Bootstrap Test</title>
+    <title>族库系统demo</title>
     <!-- Bootstrap core CSS-->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom fonts for this template-->
@@ -56,9 +56,6 @@
                 <ul class="sidenav-second-level collapse" id="collapseComponents">
                     <li>
                         <a href="navbar.html">导航栏</a>
-                    </li>
-                    <li>
-                        <a href="cards.html">卡片</a>
                     </li>
                 </ul>
             </li>
@@ -217,7 +214,9 @@
             <li class="nav-item">
                 <form class="form-inline my-2 my-lg-0 mr-lg-2">
                     <div class="input-group">
-                        <input class="form-control" type="text" placeholder="搜索...">
+                        <label>
+                            <input class="form-control" type="text" placeholder="搜索...">
+                        </label>
                         <span class="input-group-append">
                 <button class="btn btn-primary" type="button">
                   <i class="fa fa-search"></i>
@@ -228,7 +227,7 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" data-toggle="modal" data-target="#exampleModal">
-                    <i class="fa fa-fw fa-sign-out"></i>退出</a>
+                    <i class="fa fa-fw fa-sign-out"></i>注销</a>
             </li>
         </ul>
     </div>
@@ -679,15 +678,15 @@
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">确定要离开吗?</h5>
                     <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
                 </div>
-                <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+                <div class="modal-body">如果您准备结束当前会话，请在下面选择“注销”.</div>
                 <div class="modal-footer">
-                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                    <a class="btn btn-primary" href="login.html">Logout</a>
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">取消</button>
+                    <a class="btn btn-primary" href="login.html">注销</a>
                 </div>
             </div>
         </div>
