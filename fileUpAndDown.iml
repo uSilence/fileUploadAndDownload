@@ -38,5 +38,6 @@
     </orderEntry>
     <orderEntry type="library" scope="PROVIDED" name="Tomcat 8.5.50" level="application_server_libraries" />
     <orderEntry type="library" name="commons-fileupload-1.4" level="project" />
+    <orderEntry type="library" name="Java EE 6-Java EE 6" level="project" />
   </component>
 </module>
